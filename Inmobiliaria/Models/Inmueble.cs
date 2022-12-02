@@ -18,6 +18,8 @@ namespace Inmobiliaria.Models
         [Required]
         [StringLength(255)]
         public string? ubic_inmueble { get; set; }
+        public double latitud { get; set; }
+        public double longitud { get; set; }
         [Required]
         public float costo_inmueble {get; set; }
         public bool vendido { get; set; } = false;
